@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{2897b15b-9fd9-4829-8cc3-b23552247f54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ch">
+      <UniqueIdentifier>{2ad44e28-260e-43ab-8d9e-2c96ba21c5a9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="blitz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="py\py.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="py\py_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="py\py_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="py\py_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="py\py_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="py\py_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="py\py_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="py\imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="py\py.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="py\py_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="py\py_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="py\py_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="py\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="py\imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="py\imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="magiXOR.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="py\hotkey.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="ch\librarys.hpp">
+      <Filter>ch</Filter>
+    </ClInclude>
+    <ClInclude Include="ch\Overlay.h">
+      <Filter>ch</Filter>
+    </ClInclude>
+    <ClInclude Include="ch\shit.h">
+      <Filter>ch</Filter>
+    </ClInclude>
+    <ClInclude Include="ch\val.h">
+      <Filter>ch</Filter>
+    </ClInclude>
+    <ClInclude Include="ch\xor.h">
+      <Filter>ch</Filter>
+    </ClInclude>
+    <ClInclude Include="ch\check.h">
+      <Filter>ch</Filter>
+    </ClInclude>
+    <ClInclude Include="ch\config.h">
+      <Filter>ch</Filter>
+    </ClInclude>
+    <ClInclude Include="ch\defs.h">
+      <Filter>ch</Filter>
+    </ClInclude>
+    <ClInclude Include="ch\drv.h">
+      <Filter>ch</Filter>
+    </ClInclude>
+    <ClInclude Include="ch\Func.h">
+      <Filter>ch</Filter>
+    </ClInclude>
+    <ClInclude Include="ch\Functions.h">
+      <Filter>ch</Filter>
+    </ClInclude>
+    <ClInclude Include="ch\gui.hpp">
+      <Filter>ch</Filter>
+    </ClInclude>
+    <ClInclude Include="py\curve_v122.hpp">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AddressHunter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="callspoofer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CallStack-Spoofer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="snake.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
